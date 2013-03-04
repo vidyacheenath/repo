@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+
+<div style="text-align:center"> 
+  
+  <br> 
+  <video id="video1" width="1280" height="752">
+   <source src="new_converted.webm" >
+<source src="new_converted.ogv" >Your browser does not support HTML5 video.
+  </video>
+</div> 
+<div style="text-align:center">
+<button onclick="play()">Play</button> 
+<button onclick="Pause()">Pause</button>
+</div>
+<script> 
+var myVideo=document.getElementById("video1"); 
+
+function play()
+{ 
+  myVideo.play(); 
+
+} 
+function Pause()
+{ 
+myVideo.pause(); 
+}
+//myVideo.addEventListener('click',function(){
+  //myVideo.play();
+//},false);
+
+//var video = document.getElementsByTagName('video1')[0];
+//video.addEventListener('click',function(){ video.play(); },false);
+</script> 
+
+</body> 
+</html>
+
+
